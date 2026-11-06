@@ -1,4 +1,4 @@
-name: vn2000_millitarymap
+name: vn2000_millitary_map
 description: "Ung dung chuyen doi toa do WGS84 sang toa do luoi quan su VN-2000 (O 4 & O 9)"
 publish_to: 'none'
 version: 1.0.0+1
