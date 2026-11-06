@@ -24,9 +24,12 @@ jobs:
       - name: Set up Flutter SDK
         uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.x'
+          flutter-version: '3.22.0'
           channel: 'stable'
           cache: true
+
+      - name: Tự động cập nhật cấu hình Android/Gradle tương thích
+        run: flutter create . --platforms=android --org com.example
 
       - name: Install dependencies
         run: flutter pub get
