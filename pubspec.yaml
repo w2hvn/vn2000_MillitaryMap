@@ -12,8 +12,6 @@ dependencies:
   flutter_map: ^6.1.0
   latlong2: ^0.9.0
   proj4dart: ^2.1.0
-  flutter/services:
-    sdk: flutter
 
 dev_dependencies:
   flutter_test:
