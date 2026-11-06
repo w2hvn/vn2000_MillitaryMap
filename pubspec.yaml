@@ -1,0 +1,24 @@
+name: vn2000_grid_mapper
+description: "Ung dung chuyen doi toa do WGS84 sang toa do luoi quan su VN-2000 (O 4 & O 9)"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+  proj4dart: ^2.1.0
+  flutter/services:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
